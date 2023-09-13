@@ -1,0 +1,28 @@
+@charset "utf-8"; 
+/*Formatacao principal do site */
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; 
+} 
+ /* editing o painel principal do site */
+header li {
+  display: inline;
+  
+}
+.articles {
+  display: flex;
+}
+
+div.conteiner  {
+  width:1366px;
+  margin:0px auto; 
+}
+
+.articles article  img  {
+  height:180px;
+}
+
+.articles article {
+  width:30%;
+}
