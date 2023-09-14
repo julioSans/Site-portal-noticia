@@ -14,15 +14,16 @@ header li {
   display: flex;
 }
 
-div.conteiner  {
+.conteiner  {
   width:1366px;
   margin:0px auto; 
+  
 }
 
 .articles article  img  {
   height:180px;
 }
 
-.articles article {
+s article .article{
   width:30%;
 }
