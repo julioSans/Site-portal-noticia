@@ -7,10 +7,10 @@
 } 
  /* editing o painel principal do site */
 header li {
-  display: inline;
+display: inline;
   
 }
-.articles {
+ .articles {
   display: flex;
 }
 
