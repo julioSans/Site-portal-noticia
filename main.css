@@ -5,25 +5,243 @@
   margin: 0;
   padding: 0; 
 } 
- /* editing o painel principal do site */
-header li {
-display: inline;
+ /* editing o CABECALHO {*/
+ body {
+  background-color: #f8f5f5;
+ }
+ body > header{
+  background-color:black ;
   
 }
- .articles {
-  display: flex;
+
+.conteiner h1 {
+  font-family:Arial, Helvetica, sans-serif; 
+  font-weight: bold;
+  color: #fff;
+}
+
+header li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: space-between;
+  display: inline;
+  padding: 10px;
+  position: relative;
+  top: 10px;
+  right: 120px;
+  color:white;
+
+}
+
+header a {
+  
+  color:rgb(255, 255, 255); 
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover  {
+  color: #24bc4a;
+  transition:0.5s ;
+}
+
+header .conteiner {
+   display: flex;
+   justify-content: space-between;
+}/*  FIM CABECALHO } */
+
+/* editing as sections  ESPORTES do site {*/
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:-40px 0 -40px; 
+  margin-bottom:0px;
+
+
+}
+section#esportes{
+  background-color:#d8d2d8 ;
+}
+section h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.articles article h3  {
+  font-size:20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+
+}  
+section#esportes p {
+
 }
 
 .conteiner  {
   width:1366px;
   margin:0 auto;
+  padding: 20px 10px;
+
   
 }
+/* editing section economy { */
+section#economy h2  {
+  margin:20px 0px 5px auto ;
+}
 
-.articles article  img  {
+/* FIM } */
+
+/* editing os meus articles  */
+
+.articles {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+
+.articles article  img {
   height:180px;
 }
 
-.articles article{
+.articles article a {
+  flex-wrap: wrap;
+}
+.articles article {
   width:30%;
 }
+.articles p {
+  width: 70%;
+}
+
+.articles article p, time {
+  font-size: 15px;
+}
+
+.articles article a {
+  display: inline-block;
+  margin:5px auto;
+  padding: 5px 10px;
+  font-size: 10px;
+  text-decoration: none;
+  background-color:rgb(43, 43, 50); 
+  color:#fff; 
+}
+.articles article a:hover {
+  color: #24bc4a;
+  font-size: 13px;
+  transition:0.5s ;
+
+}
+
+
+/* section de tecnologias {{  */
+section#tecnologias {
+  display: flex;
+  position:relative;
+  left: 100px;
+
+}
+
+.interfarce{
+  background-color:#fff7ff
+}
+
+section#tecnologias h2  {
+  position: relative;
+  left: 170px;
+  top: 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section#tecnologias article {
+  display: flex;
+}
+
+section#tecnologias article h3  {
+  position: relative;
+  
+
+}
+section#tecnologias article p {
+  position: absolute;
+  left: 760px;
+  text-justify: auto;
+  top: 50px;
+  bottom: 1px;
+  align-items: center;
+  text-indent: 50px;
+  width:40%; 
+  font-size:15px; 
+  
+}
+
+.conteiner1 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+section#tecnologias article img {
+  position: relative;
+  top: 50px;
+}
+
+section#tec2 {
+  display: flex;
+  
+} 
+
+.conteiner2 article {
+  margin: 100px;
+  position: relative;
+  left: 150px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+ hr {
+  
+  padding: 15px;
+  color: #606060;
+ }
+
+.conteiner2 article p {
+  width: 300px;
+  position: relative;
+  margin: 10px 0px ;
+  font-size: 15px;
+}/* fim section tecnologias } */
+
+
+/* section rodape { */
+body > section#rodape {
+  background-color: black;
+  position: relative;
+  width: auto;
+  height: 150px;
+}
+
+section#rodape li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color:#ffffff ;
+  display: inline-block;
+  position: relative;
+  left: 800px;
+  bottom: 0;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+section#rodape a {
+  text-decoration: none;
+  text-transform:none ;
+  color: #ffffff;
+}
+
+section#rodape a:hover {
+  color: #24bc4a;
+  transition:0.5s ;
+}/* } section rodape }  */
+
+
