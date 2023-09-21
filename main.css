@@ -132,7 +132,6 @@ section#economy h2  {
 
 }
 
-
 /* section de tecnologias {{  */
 section#tecnologias {
   display: flex;
@@ -159,18 +158,18 @@ section#tecnologias article {
 
 section#tecnologias article h3  {
   position: relative;
-  
 
 }
+
 section#tecnologias article p {
   position: absolute;
   left: 760px;
-  text-justify: auto;
+  text-justify: left;
   top: 50px;
   bottom: 1px;
   align-items: center;
   text-indent: 50px;
-  width:40%; 
+  width:35%; 
   font-size:15px; 
   
 }
@@ -184,11 +183,12 @@ section#tecnologias article p {
 section#tecnologias article img {
   position: relative;
   top: 50px;
-}
+}/* fim section tecnologias } */
 
+/* section tec2 { */
 section#tec2 {
   display: flex;
-  
+  margin: 20px; 
 } 
 
 .conteiner2 article {
@@ -209,8 +209,7 @@ section#tec2 {
   position: relative;
   margin: 10px 0px ;
   font-size: 15px;
-}/* fim section tecnologias } */
-
+}/* }fim tec2} */
 
 /* section rodape { */
 body > section#rodape {
